@@ -17,10 +17,34 @@ public class Program5 {
         scan.close();
 
         int large = arr[0];
+        int small = arr[0];
+        int median = 0;
+        for (int i : arr) {
+            if(large < i) large = i;
+            if(small > i) small = i;
+        }
 
-        if(large < arr[1]) large = arr[1];
-        if(large < arr[2]) large = arr[2];
+        for (int i : arr) {
+            if(large != i && small != i) median = i;
+        }
 
-        System.out.println("\nLargest number: " + large);
+        if(median == 0) {
+            int count = 0;
+            for (int i: arr) {
+                if(large == i) {
+                    count++;
+                    if(count == 2) {
+                        median = large;
+                    }
+                }
+            }
+            if(median == 0) {
+                median = small;
+            }
+        }
+
+        System.out.println("\nDecreasing order: ");
+        System.out.printf("%d %d %d\n", large, median, small);
+
     }
 }
