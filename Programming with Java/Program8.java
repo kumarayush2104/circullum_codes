@@ -5,6 +5,18 @@
 import java.util.Scanner;
 
 public class Program8 {
+    public static int[] reverse(int[] arr) {
+	int j = arr.length-1;
+
+        for(int i = 0; i < arr.length/2; i++) {
+            int tmp = arr[j];
+            arr[j] = arr[i];
+            arr[i] = tmp;
+            j--;
+        }
+	return arr;
+    }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] arr = new int[10];
@@ -18,16 +30,7 @@ public class Program8 {
 
         System.out.println("\n\n");
 
-        int j = arr.length-1;
-
-        for(int i = 0; i < arr.length/2; i++) {
-            int tmp = arr[j];
-            arr[j] = arr[i];
-            arr[i] = tmp;
-            j--;
-        }
-
-        for (int i : arr) {
+        for (int i : reverse(arr)) {
             System.out.println(i);
         }
     }
