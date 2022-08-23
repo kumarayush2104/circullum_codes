@@ -1,4 +1,10 @@
 <?php
+/*
+    B.Tech Computer Science and Technology
+    Ayush Kumar
+    202103103510253
+*/
+
 	$mat1 = [[],[],[]]; 
     $mat2 = [[],[],[]];
     $out=0;
