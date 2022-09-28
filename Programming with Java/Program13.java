@@ -17,6 +17,7 @@ class Program13 {
         float num1 = scan.nextFloat();
         System.out.print("Enter Divisor: ");
         float num2 = scan.nextFloat();
+        scan.close();
         
         try {
             if(num2 == 0) {

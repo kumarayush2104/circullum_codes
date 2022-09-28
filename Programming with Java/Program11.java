@@ -5,25 +5,21 @@
 abstract class Shape {
     abstract double Area(double[] arg);
 }
-
 class Triangle extends Shape {
     public double Area(double[] arg) {
         return arg[0]*arg[1]*0.5;
     }
 }
-
 class Rectangle extends Shape {
     public double Area(double[] arg) {
         return arg[0]*arg[1];
     }
 }
-
 class Circle extends Shape {
     public double Area(double[] arg) {
         return arg[0]*3.14*arg[0];
     }
 }
-
 public class Program11 {
     public static void main(String[] args) {
         if(args[0].equals("help")) {
