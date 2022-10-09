@@ -1,3 +1,9 @@
+/*
+    B.Tech Computer Science and Engineering
+    Ayush Kumar
+    20210103510253
+*/
+
 function checkUsername(name) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() {

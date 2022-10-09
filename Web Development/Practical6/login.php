@@ -4,20 +4,14 @@
     Ayush Kumar
     20210103510253
 */
-
-    session_start();
-    if(isset($_COOKIE['email']) || isset($_SESSION['email'])) {
-        header('location: script.php');
-    }  
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practical 7</title>
+    <title>Login</title>
 </head>
 <style>
     * {
@@ -34,9 +28,9 @@
     body {
         height: 100vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
 
     table {
@@ -48,8 +42,8 @@
     }
 </style>
 <body>
-    <?php echo "<p style='padding: 10px'>B.Tech Computer Science and Engineering<br>Ayush Kumar<br>20210103510253<br></p>"; ?>
-    <form action='script.php' method='POST'>
+    <?php echo "B.Tech Computer Science and Engineering<br>Ayush Kumar<br>20210103510253<br>"; ?>
+    <form action='logon.php' method='POST'>
         <h2>Login</h2>
         <table>
             <tr>
@@ -64,7 +58,7 @@
                 <td colspan="2"><input type="submit" value="Login"></td>
             </tr>
             <tr>
-                <td colspan="2"><?php if($_GET['err'] == 1) echo "Check your username or password"?></td>
+                <td colspan="2"><?php if($_GET['err'] == 1) echo "Check your username or password";  elseif($_GET['err'] == 2) echo "Password is incorrect"; ?></td>
             </tr>
         </table>
     </form>

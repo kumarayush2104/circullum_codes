@@ -1,3 +1,10 @@
+<?php
+/*
+    B.Tech Computer Science and Engineering
+    Ayush Kumar
+    20210103510253
+*/
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +23,7 @@
     }
 </style>
 <body>
+    <?php echo "<p style='padding: 10px'>B.Tech Computer Science and Engineering<br>Ayush Kumar<br>20210103510253<br></p>"; ?>
     <h2>Registration Form</h2>
     <form>
         <table>
