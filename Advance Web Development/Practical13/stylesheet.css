@@ -1,0 +1,15 @@
+path {
+	fill: #96fab1;
+	stroke: #000000;
+	stroke-width: 0.831332px;
+}
+
+path:hover {
+	fill: red;
+	stroke: #000000;
+	stroke-width: 0.831332px;
+}
+
+td {
+	text-align: center;
+}

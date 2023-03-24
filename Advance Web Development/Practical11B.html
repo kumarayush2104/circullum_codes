@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ul id="list">
+        </ul>
+    </div>
+    <button onclick="addStudent()">Add Student</button>
+    <button onclick="removeStudent()">Remove Student</button>
+    <button onclick="sortList()">Sort</button>
+    <script>
+        class List {
+            constructor() {
+                this.list = []
+            }
+
+            push(value) {
+                if (this.list.length >= this.size) {
+                    return
+                }
+                this.list.push(value.toLowerCase())
+            }
+
+            pop(value) {
+                let index = this.list.indexOf(valuevalue.toLowerCase())
+                if(index == -1) {
+                    return false
+                }
+
+                delete this.list[index]
+            }
+
+            sort() {
+                for (let i = 0; i < this.list.length; i++) {
+                    for (let j = 0; j < this.list.length - i - 1; j++) {
+                        if (this.list[j] > this.list[j + 1]) {
+                            let tmp = this.list[j]
+                            this.list[j] = this.list[j + 1]
+                            this.list[j + 1] = tmp
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        var studentList = new List()
+
+        function updateList() {
+            document.getElementById("list").innerHTML = ""
+            studentList.list.forEach(element => {
+                if(element != "undefined")
+                document.getElementById("list").innerHTML += "<li>" + element + "</li>"
+            });
+        }
+
+        function addStudent() {
+            let name = prompt("Enter Student Name: ")
+            if(name != null) studentList.push(name)
+            updateList()
+        }
+
+        function removeStudent() {
+            studentList.pop(prompt("Enter Student Name: "))
+            updateList()
+        }
+
+        function sortList() {
+            studentList.sort()
+            updateList()
+        }
+
+    </script>
+</body>
+</html>
