@@ -1,0 +1,30 @@
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\appsettings.Development.json
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\appsettings.json
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.staticwebassets.runtime.json
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.exe
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.deps.json
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.runtimeconfig.json
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.dll
+D:\Projects\Dotnet\Practical 6\bin\Debug\net7.0\Practical 6.pdb
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.AssemblyInfoInputs.cache
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.AssemblyInfo.cs
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.csproj.CoreCompileInputs.cache
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.RazorAssemblyInfo.cache
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.RazorAssemblyInfo.cs
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets\msbuild.Practical 6.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets\msbuild.build.Practical 6.props
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Practical 6.props
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Practical 6.props
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets.build.json
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\staticwebassets.development.json
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\scopedcss\bundle\Practical 6.styles.css
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\scopedcss\projectbundle\Practical 6.bundle.scp.css
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.dll
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\refint\Practical 6.dll
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.pdb
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\Practical 6.genruntimeconfig.cache
+D:\Projects\Dotnet\Practical 6\obj\Debug\net7.0\ref\Practical 6.dll

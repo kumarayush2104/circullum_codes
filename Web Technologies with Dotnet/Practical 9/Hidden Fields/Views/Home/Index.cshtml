@@ -1,0 +1,21 @@
+﻿@model Practical_9.Models.Task;
+@{
+    ViewData["title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form asp-action="Index" method="post">
+        <input type="text" asp-for="TaskId" value="123" hidden />
+        <input type="text" asp-for="TaskName" placeholder="Enter Task Name" />
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+@if (Model != null)
+{
+    <div class="container">
+        <h6>Task ID: @Model.TaskId</h6>
+        <h6>Task Name: @Model.TaskName</h6>
+    </div>
+}

@@ -1,0 +1,20 @@
+﻿@model Employee;
+@{
+    ViewData["Title"] = "Explicit Validation";
+}
+
+<div class="p-4">
+    <h1 class="display-4">Using Explicit Validation</h1>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label for="Name" class="form-label">Enter your name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Enter your Age</label>
+            <input asp-for="Age" type="text" class="form-control" placeholder="21">
+        </div>
+        <input type="submit" />
+    </form>
+</div>

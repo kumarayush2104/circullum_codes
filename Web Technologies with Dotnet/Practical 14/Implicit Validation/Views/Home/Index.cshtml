@@ -1,0 +1,25 @@
+﻿@model Student;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if(Model == null) {
+    <div class="p-4">
+    <h1 class="display-4">Using Implicit Validation</h1>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label for="Name" class="form-label">Enter your name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Enter your enrollment number</label>
+            <input asp-for="Enroll" type="text" class="form-control" placeholder="202103103510253">
+        </div>
+        <input type="submit" />
+    </form>
+</div>
+} else {
+    <h3>Welcome, @Model.Name</h3>
+}

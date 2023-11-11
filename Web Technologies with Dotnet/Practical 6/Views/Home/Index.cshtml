@@ -1,0 +1,12 @@
+﻿@model Manager;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Name: @Model.name</p>
+    <p>Age: @Model.age</p>
+    <p>Address: @(Model.address ?? "Not Available")</p>
+    <p>Department: @(Model.department)</p>
+</div>

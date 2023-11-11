@@ -1,0 +1,30 @@
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\appsettings.Development.json
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\appsettings.json
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.staticwebassets.runtime.json
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.exe
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.deps.json
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.runtimeconfig.json
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.dll
+d:\Projects\Dotnet\Practical 13\bin\Debug\net7.0\Practical 13.pdb
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.GeneratedMSBuildEditorConfig.editorconfig
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.AssemblyInfoInputs.cache
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.AssemblyInfo.cs
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.csproj.CoreCompileInputs.cache
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.MvcApplicationPartsAssemblyInfo.cache
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.RazorAssemblyInfo.cache
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.RazorAssemblyInfo.cs
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets\msbuild.Practical 13.Microsoft.AspNetCore.StaticWebAssets.props
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets\msbuild.build.Practical 13.props
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Practical 13.props
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Practical 13.props
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets.pack.json
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets.build.json
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\staticwebassets.development.json
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\scopedcss\bundle\Practical 13.styles.css
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\scopedcss\projectbundle\Practical 13.bundle.scp.css
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.dll
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\refint\Practical 13.dll
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.pdb
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\Practical 13.genruntimeconfig.cache
+d:\Projects\Dotnet\Practical 13\obj\Debug\net7.0\ref\Practical 13.dll

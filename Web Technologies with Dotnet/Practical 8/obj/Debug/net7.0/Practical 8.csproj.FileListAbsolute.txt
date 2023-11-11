@@ -1,0 +1,30 @@
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\appsettings.Development.json
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\appsettings.json
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.staticwebassets.runtime.json
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.exe
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.deps.json
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.runtimeconfig.json
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.dll
+D:\Projects\Dotnet\Practical 8\bin\Debug\net7.0\Practical 8.pdb
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.AssemblyInfoInputs.cache
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.AssemblyInfo.cs
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.csproj.CoreCompileInputs.cache
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.RazorAssemblyInfo.cache
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.RazorAssemblyInfo.cs
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets\msbuild.Practical 8.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets\msbuild.build.Practical 8.props
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Practical 8.props
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Practical 8.props
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets.build.json
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\staticwebassets.development.json
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\scopedcss\bundle\Practical 8.styles.css
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\scopedcss\projectbundle\Practical 8.bundle.scp.css
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.dll
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\refint\Practical 8.dll
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.pdb
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\Practical 8.genruntimeconfig.cache
+D:\Projects\Dotnet\Practical 8\obj\Debug\net7.0\ref\Practical 8.dll

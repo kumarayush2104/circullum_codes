@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model string;
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @if (Model != null)
+    {
+        <p>@Model</p>
+    }
+    else
+    {
+        <form method="post" asp-action="Index">
+            <input type="text" name="message" placeholder="Enter your message" />
+            <input type="submit" />
+        </form>
+    }
+</div>

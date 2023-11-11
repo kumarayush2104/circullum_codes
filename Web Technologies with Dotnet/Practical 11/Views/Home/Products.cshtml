@@ -1,0 +1,23 @@
+﻿@model List<Product>;
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>Products</h1>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Category</th>
+        <th>Supplier</th>
+    </tr>
+    @foreach (Product p in Model)
+    {
+        <tr>
+            <td>@p.name</td>
+            <td>@p.quantity</td>
+            <td>@p.category.Name</td>
+            <td>@p.supplier.name</td>
+        </tr>
+    }
+</table>

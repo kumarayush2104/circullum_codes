@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model string;
+
+<div class="text-center">
+    @if (Model != null)
+    {
+        <h1 class="display-4">Welcome @Model</h1>
+    }
+    else
+    {
+        <form asp-action="Index" method="post">
+            <input type="text" name="username" placeholder="Enter your username" />
+            <input type="submit" />
+        </form>
+    }
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

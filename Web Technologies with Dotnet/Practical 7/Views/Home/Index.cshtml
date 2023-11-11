@@ -1,0 +1,9 @@
+﻿@model Classroom;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to class 5 'A'</h1>
+    <p>Total number of students: @Model.students.TotalStudents()</p>
+</div>

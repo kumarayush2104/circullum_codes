@@ -1,0 +1,33 @@
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\appsettings.Development.json
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\appsettings.json
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.staticwebassets.runtime.json
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.exe
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.deps.json
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.runtimeconfig.json
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.dll
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\Practical 9.pdb
+d:\Projects\Dotnet\Practical 9\bin\Debug\net7.0\System.Security.Permissions.dll
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.csproj.AssemblyReference.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.GeneratedMSBuildEditorConfig.editorconfig
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.AssemblyInfoInputs.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.AssemblyInfo.cs
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.csproj.CoreCompileInputs.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.MvcApplicationPartsAssemblyInfo.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.RazorAssemblyInfo.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.RazorAssemblyInfo.cs
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets\msbuild.Practical 9.Microsoft.AspNetCore.StaticWebAssets.props
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets\msbuild.build.Practical 9.props
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Practical 9.props
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Practical 9.props
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets.pack.json
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets.build.json
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\staticwebassets.development.json
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\scopedcss\bundle\Practical 9.styles.css
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\scopedcss\projectbundle\Practical 9.bundle.scp.css
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.csproj.CopyComplete
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.dll
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\refint\Practical 9.dll
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.pdb
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\Practical 9.genruntimeconfig.cache
+d:\Projects\Dotnet\Practical 9\obj\Debug\net7.0\ref\Practical 9.dll

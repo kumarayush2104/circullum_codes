@@ -1,0 +1,53 @@
+﻿@model CartViewModel;
+
+<div class="text-center">
+    <h1 class="display-4 my-5">Shopping List</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item Id</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (CartItem item in Model.CartItems)
+            {
+                <tr>
+                    <form asp-action="UpdateData" method="post">
+                        <td>
+                            <input type="text" asp-for="CartItem.CartItemId" value="@item.CartItemId" readonly />
+                        </td>
+                        <td>
+                            <input type="text" asp-for="CartItem.Name" value="@item.Name" />
+                        </td>
+                        <td>
+                            <input type="text" asp-for="CartItem.Quantity" value="@item.Quantity"
+                                placeholder="Enter new Quantity" />
+                        </td>
+                        <td>
+                            <input class="btn btn-primary" type="submit" value="Edit" />
+                            <a class="btn btn-danger" asp-action="DeleteData" asp-route-itemId="@item.CartItemId">Delete</a>
+                        </td>
+                    </form>
+                </tr>
+            }
+            <tr>
+                <form method="post" asp-action="AddData">
+                    <td colspan="2">
+                        <input asp-for="CartItem.Name" class="form-control" type="text" placeholder="Enter Item" />
+                    </td>
+                    <td>
+                        <input asp-for="CartItem.Quantity" class="form-control" type="text"
+                            placeholder="Enter Quantity" />
+                    </td>
+                    <td>
+                        <input class="btn btn-success" type="submit" value="Create" />
+                    </td>
+                </form>
+            </tr>
+        </tbody>
+    </table>
+</div>
