@@ -60,6 +60,13 @@ class _MyHomePageState extends State<MyHomePage> {
     getData();
   }
 
+  void removeData(String name) async {
+    await (database.delete(database.todoItems)
+          ..where((data) => data.title.like(name)))
+        .go();
+    getData();
+  }
+
   @override
   void initState() {
     getData();
@@ -94,20 +101,23 @@ class _MyHomePageState extends State<MyHomePage> {
               todoItems != null
                   ? Expanded(
                       child: ListView.separated(
-                      itemCount: todoItems!.length,
-                      separatorBuilder: (BuildContext context, int index) =>
-                          const Divider(),
-                      itemBuilder: (BuildContext context, int index) =>
-                          ListTile(
-                              title: Text(todoItems![index].title),
-                              subtitle: Text(todoItems![index].deadline),
-                              trailing: Checkbox(
-                                  value: todoItems![index].completed,
-                                  onChanged: (status) {
-                                    updateData(
-                                        todoItems![index].title, status!);
-                                  })),
-                    ))
+                          itemCount: todoItems!.length,
+                          separatorBuilder: (BuildContext context, int index) =>
+                              const Divider(),
+                          itemBuilder: (BuildContext context, int index) =>
+                              GestureDetector(
+                                onHorizontalDragEnd: (drag) =>
+                                    removeData(todoItems![index].title),
+                                child: ListTile(
+                                    title: Text(todoItems![index].title),
+                                    subtitle: Text(todoItems![index].deadline),
+                                    trailing: Checkbox(
+                                        value: todoItems![index].completed,
+                                        onChanged: (status) {
+                                          updateData(
+                                              todoItems![index].title, status!);
+                                        })),
+                              )))
                   : const Text("Loading"),
               Padding(
                 padding: const EdgeInsets.all(10),
