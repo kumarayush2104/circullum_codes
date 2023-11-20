@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/IMemory cache/IMemory cache.csproj": {}
+  },
+  "projects": {
+    "/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/IMemory cache/IMemory cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/IMemory cache/IMemory cache.csproj",
+        "projectName": "IMemory cache",
+        "projectPath": "/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/IMemory cache/IMemory cache.csproj",
+        "packagesPath": "/home/kumarayush2104/.nuget/packages/",
+        "outputPath": "/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/IMemory cache/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kumarayush2104/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

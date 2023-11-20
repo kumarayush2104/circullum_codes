@@ -1,0 +1,31 @@
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/appsettings.Development.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/appsettings.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache.staticwebassets.runtime.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache.deps.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache.runtimeconfig.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache.dll
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/bin/Debug/net7.0/Response cache.pdb
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.csproj.AssemblyReference.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.AssemblyInfoInputs.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.AssemblyInfo.cs
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.csproj.CoreCompileInputs.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.MvcApplicationPartsAssemblyInfo.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.RazorAssemblyInfo.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.RazorAssemblyInfo.cs
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets/msbuild.Response cache.Microsoft.AspNetCore.StaticWebAssets.props
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets/msbuild.build.Response cache.props
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Response cache.props
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Response cache.props
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets.pack.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets.build.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/staticwebassets.development.json
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/scopedcss/bundle/Response cache.styles.css
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/scopedcss/projectbundle/Response cache.bundle.scp.css
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.dll
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/refint/Response cache.dll
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.pdb
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/Response cache.genruntimeconfig.cache
+/run/media/kumarayush2104/2D28F043370E1939/Projects/curriculum_codes/Web Technologies with Dotnet/Practical 10/Response cache/obj/Debug/net7.0/ref/Response cache.dll
