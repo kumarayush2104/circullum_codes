@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include "include/enroll.h"
 
-void main() {
-	float tempF, tempC;
+void main()
+{
 	enroll();
+	float tempF;
 	printf("Enter Temperature in F: ");
 	scanf("%f", &tempF);
-	tempC= (tempF-32)*5/9;
-	printf("Temperature in C: %.2f\n", tempC);
+	printf("Temperature in C: %.2f\n", (tempF - 32) * 5 / 9);
 }
-

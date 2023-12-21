@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include "include/enroll.h"
 
-void main() {
+void main()
+{
+	enroll();
 	printf("Hello World\n");
 }

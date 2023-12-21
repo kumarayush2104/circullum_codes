@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "include/enroll.h"
 
-void main() {
-    enroll();
+void main()
+{
+	enroll();
 	int num;
 	printf("Enter a Number: ");
 	scanf("%d", &num);
-	printf("Entered number is %d\n", num);
+	printf("The number you have entered is %d\n", num);
 }
