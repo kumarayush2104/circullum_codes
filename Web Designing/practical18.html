@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical-18</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <button id="remId">Remove an Element with id</button>
+    <button id="remClass">Remove an Element with class</button>
+    <button id="remTag">Remove an Element with tag</button>
+    <button id="reset">Reset</button>
+    <hr>
+    <div class="h" style="height: 20%; width:20%; background: yellow; border: 1px solid black;">Class</div><br />
+    <div id="h" style="height: 20%; width: 20%; background: yellow; border: 1px solid black;">Id</div><br />
+    <span style="height: 20%; width: 40%; background: yellow; border: 1px solid black;">TagName</span>
+    <script>
+        $("#remId").click(function () {
+            $("#h").hide()
+        });
+        $("#remClass").click(function () {
+            $(".h").hide();
+        });
+        $("#remTag").click(function () {
+            $("span").hide();
+        });
+        $("#reset").click(function () {
+            $("span").show();
+            $(".h").show();
+            $("#h").show();
+        });
+    </script>
+</body>
+</html>

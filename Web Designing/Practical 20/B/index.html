@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practical-20 (b)</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <button id="get">Get Date</button>
+        <h1 id="priDate"></h1>
+        <script>
+            $("#get").click(function(){
+                var date = new Date();
+                $("h1").html(date.getDate() + "/" + (date.getMonth() + 1)+ "/" + date.getFullYear())
+            });
+        </script>
+    </body>
+</html>

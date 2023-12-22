@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practical-13</title>
+        <script>
+            function run() {
+                numbers = document.getElementsByClassName("num");
+                large = parseFloat(numbers[0].value);
+                if(parseFloat(numbers[1].value) > large) large=parseFloat(numbers[1].value);
+                if(parseFloat(numbers[2].value) > large) large=parseFloat(numbers[2].value);
+                document.getElementById("trig").textContent = large.toString() + " is Largest.";
+            }
+        </script>
+    </head>
+    <body>
+        <h3 id="trig">Which is the largest number ?</h3>
+        <input class=num type="text" placeholder="Enter First Number">
+        <input class=num type="text" placeholder="Enter Second Number">
+        <input class=num type="text" placeholder="Enter Third Number">
+        <input type="button" value="Calculate" onclick="run()">
+    </body>
+</html>

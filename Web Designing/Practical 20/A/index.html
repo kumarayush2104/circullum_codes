@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practical-20 (a)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <input id="a" type=text placeholder="Enter first number">
+    <input id="b" type=text placeholder="Enter second number">
+    <input id="c" type=text placeholder="Enter third number">
+    <input id="trig" type="submit" value="Calculate">
+    <script>
+        $("#trig").click(function () {
+            var num1 = parseInt($("#a:text").val());
+            var num2 = parseInt($("#b:text").val());
+            var num3 = parseInt($("#c:text").val());
+            large = num1;
+            if (large < num2) large = num2;
+            if (large < num3) large = num3;
+            alert(large + " is largest number.");
+        });
+    </script>
+</body>
+
+</html>

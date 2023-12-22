@@ -1,0 +1,39 @@
+.calculator {
+    text-align: center;
+    border: 2px solid yellowgreen;
+    border-radius: 25px;
+    height: 380px;
+    width: 250px;
+}
+
+#textview {
+    font-weight: 500;
+    color: rgb(255, 255, 103);
+    text-align: right;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+}
+
+.spe-button-2 {
+    height: 102px;
+    width: 46px;
+}
+
+.pri-button {color: rgb(255, 255, 103);}
+
+.floor-5 > td > input , .spe-button-2 {background: rgb(255, 255, 103); color: black;}
+table { background: black; }
+input {
+    font-weight: 500;
+    background: black;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+td > input:hover {
+    background: blue;
+    color: white;
+}

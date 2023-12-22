@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practical-14</title>
+        <script>
+            function showTime() {
+                var newDate = new Date();
+                var time = newDate.toLocaleTimeString();
+                var date = newDate.toLocaleDateString();
+                var message = "Date: " + date + "\nTime: " + time;
+                alert(message);
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" value="ShowTime" onclick="showTime()">
+    </body>
+</html>

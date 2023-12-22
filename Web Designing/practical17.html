@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practical-17</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <button onclick="cre()">
+            Add an Image
+        </button>
+        <button onclick="del()">
+            Remove an Image
+        </button><br />
+        <h3>Image will be created below: </h3>
+    </div>
+    <div style="margin-top: 90px;" id="here">
+
+    </div>
+    <script>
+        function cre() {
+            var img = document.createElement("img");
+            document.getElementById("here").appendChild(img);
+            img.src = "https://thumbnail.imgbin.com/11/12/6/imgbin-uka-tarsadia-university-logo-chhotubhai-gopalbhai-patel-institute-of-technology-graphic-design-symbol-bnB9YsDCYBpv7ad2G5Gnaqd1Z_t.jpg";
+        }
+        function del() {
+            document.getElementById("here").removeChild(document.getElementsByTagName("img")[0]);
+        }
+    </script>
+</body>
+</html>

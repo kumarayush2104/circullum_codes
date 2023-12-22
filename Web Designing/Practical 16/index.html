@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+    <title>Practical-16</title>
+</head>
+<body style="font-family: Arial">
+    <form name="form1" onsubmit="validate(); return false;">
+        <fieldset>
+            <legend style="font-size: 30px;">Library Book Issue Form</legend>
+            <label>Name: </label>
+            <input type="text" placeholder="Enter Your Name" name="name" />
+            <br><br>
+            <label>Enrollment Number: </label>
+            <input type="text" placeholder="Enter Enrollment Number" name="enroll" />
+            <br><br>
+            <label>Email ID: </label>
+            <input type="text" placeholder="Enter Email ID" name="mail" />
+            <br><br>
+            <label>Book Title: </label>
+            <input type="text" placeholder="Enter Book Title" name="boT" />
+            <br><br>
+            <label>Book Barcode Number: </label>
+            <input type="text" placeholder="Enter Barcode Number" name="boB" />
+            <br /><br />
+            <label>Department: </label>
+            <br>
+            <input type="radio" name="dep" value="amtics"><label>AMTICs</label><br>
+            <input type="radio" name="dep" value="bmiit"><label>BMIIT</label><br>
+            <input type="radio" name="dep" value="cgbibt"><label>CGBIBT</label><br>
+            <input type="radio" name="dep" value="cgpit"><label>CGPIT</label><br>
+            <input type="radio" name="dep" value="mpc"><label>PHARMACY</label><br>
+            <input type="radio" name="dep" value="srimca"><label>SRIMCA</label><br>
+            <br><br>
+            <label>Issue Date: </label><br />
+            <input id="isd" type="date" name="inid" />
+            <br /><br />
+            <label>Return Date: </label><br />
+            <input type="date" id="red" name="retd" />
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</HTML>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <table class="calculator">
+    <tr class="floor-6">
+      <td colspan="4">
+        <div id="textview">0</div>
+      </td>
+    </tr>
+    <tr class="floor-5">
+      <td><input class="pri-button" type="button" value="C" onclick='spe("C")'></td>
+      <td><input class="pri-button" type="button" value="/" onclick='opr("/")'></td>
+      <td><input class="pri-button" type="button" value="*" onclick='opr("*")'></td>
+      <td><input class="pri-button" type="button" value="-" onclick='opr("-")'></td>
+    </tr>
+    <tr class="floor-4">
+      <td><input class="pri-button" type="button" value="7" onclick="num(7)"></td>
+      <td><input class="pri-button" type="button" value="8" onclick="num(8)"></td>
+      <td><input class="pri-button" type="button" value="9" onclick="num(9)"></td>
+      <td rowspan="2"><input class="spe-button-2" type=button value="+" onclick='opr("+")'></td>
+    </tr>
+    <tr class="floor-3">
+      <td><input class="pri-button" type="button" value="4" onclick="num(4)"></td>
+      <td><input class="pri-button" type="button" value="5" onclick="num(5)"></td>
+      <td><input class="pri-button" type="button" value="6" onclick="num(6)"></td>
+    </tr>
+    <tr class="floor-2">
+      <td><input class="pri-button" type="button" value="1" onclick="num(1)"></td>
+      <td><input class="pri-button" type="button" value="2" onclick="num(2)"></td>
+      <td><input class="pri-button" type="button" value="3" onclick="num(3)"></td>
+      <td rowspan="2"><input class="spe-button-2" type=button value="=" onclick="trig(met, num1)"></td>
+    </tr>
+    <tr class="floor-1">
+      <td><input class="pri-button" type="button" value="0" onclick="jhero()"></td>
+      <td><input class="pri-button" type="button" value="." onclick='spe("P")'></td>
+      <td><input class="pri-button" type="button" value="⌫" onclick="bak()"></td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>

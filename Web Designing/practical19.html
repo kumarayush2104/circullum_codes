@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practical-19</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <h2>JQuery</h2>
+        <h3>Hello </h3>
+        <label>Textbox: </label><input type="text"/><br><br>
+        <button id="def">Default</button>
+        <button id="get">Greet</button>
+        <script>
+            $("#def").click(
+                function(){
+                    $("input:text").val("XYZ");
+                }
+            );
+            $("#get").click(
+                function(){
+                    $("h3").html("Hello");
+                    $("h3").html($("h3").text() + " " + $("input:text").val());
+                }
+            );
+        </script>
+    </body>
+</html>
