@@ -1,4 +1,4 @@
-#How to use
+# How to use
 
 1. Ensure Python is Installed: Verify that Python is installed on your system. This is a prerequisite for running the script and managing the dependencies.
 2. Install Required Dependencies: Use the Python package manager, pip, to install all necessary dependencies listed in the `requirements.txt` file. Execute the following command in your terminal or command prompt:
