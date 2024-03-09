@@ -1,30 +1,13 @@
-Certainly! Here are the enhanced instructions for clarity and professionalism:
+#How to use
 
-1. **Ensure Python is Installed:** Verify that Python is installed on your system. This is a prerequisite for running the script and managing the dependencies.
-
-2. **Install Required Dependencies:** Use the Python package manager, pip, to install all necessary dependencies listed in the `requirements.txt` file. Execute the following command in your terminal or command prompt:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   This command will automatically download and install all the packages and their dependencies specified in the `requirements.txt` file, preparing your environment for running the script.
-
-3. **Create an Environment Configuration File:** Before running the program, you need to create a `.env` file in the same directory as your script. This file should contain configurations for the dataset, including paths and variable names. Specifically, define the following configurations:
-   - `DATASET`: The file path to your dataset.
-   - `INDEPENDENT_VAR`: The column name in your dataset that serves as the independent variable.
-   - `DEPENDENT_VAR`: The column name in your dataset that serves as the dependent variable.
-   - `MODEL_OUT`: The file path where the trained model will be saved, enabling future predictions.
+1. Ensure Python is Installed: Verify that Python is installed on your system. This is a prerequisite for running the script and managing the dependencies.
+2. Install Required Dependencies: Use the Python package manager, pip, to install all necessary dependencies listed in the `requirements.txt` file. Execute the following command in your terminal or command prompt:
+   `pip install -r requirements.txt`. 
+3. Create an Environment Configuration File: Before running the program, you need to create a `.env` file in the same directory as your script. This file should contain configurations for the dataset, including paths and variable names. Specifically, define the following configurations:
+   -DATASET: The file path to your dataset.
+   -INDEPENDENT_VAR: The column name in your dataset that serves as the independent variable.
+   -DEPENDENT_VAR: The column name in your dataset that serves as the dependent variable.
+   -MODEL_OUT (Optional): The file path where the trained model will be saved, enabling future predictions.
 
 4. **Execute the Program:** Once the setup is complete, you can run the program by executing it from the command line or terminal. Navigate to the directory containing your script and use the following command:
-   ```bash
-   python main.py
-   ```
-   This command initiates the script, which then reads the configurations from the `.env` file, processes the dataset according to the specified variables, and exports a trained model for predicting values.
-
-### Arguments for the .env File
-For clarity, here are the possible arguments you can define in the `.env` file, along with their descriptions:
-- `DATASET`: The path to the CSV file containing your dataset.
-- `INDEPENDENT_VAR`: The name of the column in your dataset that is the independent variable (predictor).
-- `DEPENDENT_VAR`: The name of the column in your dataset that is the dependent variable (the outcome you are trying to predict).
-- `MODEL_OUT`: Specifies where the script should save the model that it trains based on the provided dataset and variables, allowing for future value predictions.
-
-Following these enhanced instructions will help ensure a smooth setup and execution of your linear regression program.
+   `python main.py`
