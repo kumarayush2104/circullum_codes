@@ -1,23 +1,36 @@
 from dotenv import load_dotenv
-from sqlalchemy import create_engine, engine
 from os import getenv
 from os.path import exists
-import pandas
-
-def create_connection(username: str, password: str, database_name: str) -> engine.Engine:
-    return create_engine("mysql+pymysql://{username}:{password}@localhost:3306/{database_name}".format(username=username, password=password, database_name=database_name))
+from pandas import read_csv
 
 def main():
     if not exists(".env"):
-        print("Please create a env file with MYSQL_USERNAME, MYSQL_PASSWORD and DATABASE_NAME")
+        print("Please create a env file with DATASET, FRAC")
         return
     
     load_dotenv()
 
     try:
-        connection = create_connection(getenv("MYSQL_USERNAME"), getenv("MYSQL_PASSWORD") ,getenv("DATABASE_NAME"))
-        dataframe = pandas.read_sql("SELECT * FROM RainfallData", con=connection)
-        print(dataframe)
+        # fetch enviornment variables
+        dataset = getenv("DATASET")
+        fraction = getenv("FRAC")
+        
+        # read the dataset and shuffle it
+        dataframe = read_csv(dataset)
+        dataframe = dataframe.sample(frac=1)
+        total_observations = dataframe.shape[0]
+
+        # split the dataset into training and testing dataset
+        train_dataset = dataframe[:int(total_observations * float(fraction))]
+        test_dataset = dataframe[int(total_observations * float(fraction)):]
+
+        print("             Training Dataset             ")
+        print(train_dataset)
+        print("******************************************", end="\n\n")
+
+        print("              Testing Dataset             ")
+        print(test_dataset)
+        print("******************************************")
     except Exception as e:
         print(e)
 
